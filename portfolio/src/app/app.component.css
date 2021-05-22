@@ -69,3 +69,8 @@ footer {
   background-image: url("/assets/background.jpg");
   color: #fff;
 }
+
+a {
+  color: #275171;
+  font-family: "Space Mono", monospace;
+}
