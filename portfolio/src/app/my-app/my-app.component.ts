@@ -1,4 +1,6 @@
+
 import { Component, OnInit } from '@angular/core';
+import { APPS } from 'src/environments/apps';
 
 @Component({
   selector: 'app-my-app',
@@ -6,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./my-app.component.css']
 })
 export class MyAppComponent implements OnInit {
+
+  apps = APPS;
 
   constructor() { }
 

@@ -1,0 +1,20 @@
+<div class="container">
+    <div>
+        <img width="600" alt="app photo" [src]="app.iconUrl">
+        <div>
+            <p>
+                {{ app.description }} <a href="{{ app.descriptionUrl}}" target="_blank">
+                    {{ app.descriptionUrlTitle }}</a>
+                {{ app.description2}}
+                <a href="{{ app.descriptionUrl2 }}" target="_blank"> {{ app.descriptionUrlTitle2 }} </a>
+                {{ app.description3 }}
+            </p>
+        </div>
+        <div><i class="fab fa-github"></i> <a href="{{ app.openSourceUrl }}" target="_blank">
+                Source Code</a> &
+            <a href="{{ app.hostingUrl }}" target="_blank"> Hosting </a>
+        </div>
+    </div>
+    <hr />
+    <div>
+
