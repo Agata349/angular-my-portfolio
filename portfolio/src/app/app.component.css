@@ -13,48 +13,11 @@ h1 {
   font-size: 48px;
 }
 
-h3 {
-  margin-top: 20px;
-  padding: 30px;
-  text-align: center;
-  font-family: "Inconsolata", monospace;
-  font-weight: 800;
-}
-
-button {
-  display: block;
-  margin: 75px auto;
-  padding: 15px 25px;
-  font-size: 20px;
-  font-family: "Inconsolata", monospace;
-  border: none;
-  box-shadow: 5px 5px 5px rgba(165, 157, 157, 0.15);
-  border-radius: 15px;
-  background-image: url("/assets/background-button.jpg");
-}
-
-button:hover {
-  cursor: pointer;
-  opacity: 0.8;
-  border: none;
-}
-
-#mail-to {
-  color: #fff;
-  text-decoration: none;
-  line-height: 1.5;
-}
-
-#certificates {
+#home,
+#certificates,
+#apps {
   background-image: url("/assets/background.jpg");
   color: #fff;
-  padding: 25px;
-  font-size: 18px;
-  font-family: "Inconsolata", monospace;
-  font-weight: bold;
-}
-
-#apps {
   padding: 25px;
   font-size: 18px;
   font-family: "Inconsolata", monospace;
