@@ -7,6 +7,7 @@ import { CertificateComponent } from './certificate/certificate.component';
 import { MyAppComponent } from './my-app/my-app.component';
 import { AppCardComponent } from './app-card/app-card.component';
 import { HomeComponent } from './home/home.component';
+import { SocialMediaComponent } from './social-media/social-media.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { HomeComponent } from './home/home.component';
     CertificateComponent,
     MyAppComponent,
     AppCardComponent,
-    HomeComponent
+    HomeComponent,
+    SocialMediaComponent
   ],
   imports: [
     BrowserModule,

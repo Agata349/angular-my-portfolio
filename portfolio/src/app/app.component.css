@@ -3,7 +3,7 @@
 
 h1 {
   padding: 27px;
-  margin: 0;
+  margin: 5px;
   color: rgb(70, 68, 68);
   text-align: center;
   opacity: 0.9;
@@ -15,7 +15,8 @@ h1 {
 
 #home,
 #certificates,
-#apps {
+#apps,
+#social-media {
   background-image: url("/assets/background.jpg");
   color: #fff;
   padding: 25px;

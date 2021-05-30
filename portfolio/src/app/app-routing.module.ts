@@ -3,6 +3,7 @@ import { MyAppComponent } from './my-app/my-app.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
+import { SocialMediaComponent } from './social-media/social-media.component';
 
 const routes: Routes = [ 
 {
@@ -13,6 +14,9 @@ const routes: Routes = [
 },
 {
   path: 'certificate', component:CertificateComponent
+},
+{
+  path: 'social-media', component:SocialMediaComponent
 },
 {
   path: '**', pathMatch: 'full', redirectTo: 'home'
