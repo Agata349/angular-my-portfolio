@@ -1,0 +1,45 @@
+.sidenav-container {
+  height: 100%;
+  background-image: url("/assets/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sidenav {
+  width: 150px;
+  background-image: url("/assets/background.jpg");
+}
+
+.sidenav .mat-toolbar {
+  background: inherit;
+}
+
+.mat-toolbar {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-image: url("/assets/background.jpg");
+  padding: 20px;
+  color: #000;
+}
+
+span {
+  color: #000;
+  font-family: "Space Mono", monospace;
+  font-weight: bold;
+  font-size: 38px;
+}
+
+#home,
+#certificates,
+#apps {
+  background-image: url("/assets/background.jpg");
+  color: #000;
+  font-family: "Inconsolata", monospace;
+  font-weight: bold;
+}
+
+i {
+  margin-right: 8px;
+}

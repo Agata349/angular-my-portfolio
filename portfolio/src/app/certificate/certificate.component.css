@@ -1,9 +1,18 @@
+.container {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 100%;
+}
+
 .col {
-  float: right;
-  margin-top: 35px;
+  margin-top: 55px;
+  text-align: center;
 }
 
 a {
+  display: block;
+  margin: 0 auto;
   color: grey;
   text-decoration: none;
 }

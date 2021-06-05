@@ -1,6 +1,6 @@
 <div class="container">
     <div>
-        <img width="600" alt="app photo" [src]="app.iconUrl">
+        <img width="500" alt="app photo" [src]="app.iconUrl">
         <div>
             <p>
                 {{ app.description }} <a href="{{ app.descriptionUrl}}" target="_blank">
@@ -10,11 +10,13 @@
                 {{ app.description3 }}
             </p>
         </div>
-        <div><i class="fab fa-github"></i> <a href="{{ app.openSourceUrl }}" target="_blank">
+        <div>
+            <p><i class="fab fa-github"></i> <a href="{{ app.openSourceUrl }}" target="_blank">
                 Source Code</a> &
             <a href="{{ app.hostingUrl }}" target="_blank"> Hosting </a>
+            </p>
         </div>
     </div>
-    <hr />
-    <div>
+<div>
+<br/>
 
