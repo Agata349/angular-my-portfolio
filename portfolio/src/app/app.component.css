@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 
 footer {
   clear: both;
@@ -6,8 +6,8 @@ footer {
   bottom: 0;
   width: 100%;
   padding: 8px 15px;
-  font-family: "Inconsolata", monospace;
-  font-weight: bold;
+  text-align: center;
+  font-family: "Satisfy", cursive;
   background-image: url("/assets/background.jpg");
   color: #000;
 }

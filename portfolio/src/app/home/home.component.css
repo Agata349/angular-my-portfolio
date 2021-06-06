@@ -1,28 +1,35 @@
-@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 
-.container {
+body {
   min-height: 100%;
   display: grid;
   grid-template-rows: auto 1fr auto;
   grid-template-columns: 100%;
+  background-image: url("/assets/background-home.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-h2,
-h3 {
-  padding: 30px;
-  text-align: center;
-  font-family: "Inconsolata", monospace;
+h1 {
+  margin: 40px 5px 110px;
+  line-height: 1.5;
+  font-family: "Satisfy", cursive;
+  font-size: 45px;
   font-weight: bold;
   color: #000;
 }
 
-a {
-  padding: 15px;
-  border-radius: 4px;
-  background: #3e5151;
-  background: -webkit-linear-gradient(to right, #decba4, #3e5151);
-  background: linear-gradient(to right, #decba4, #3e5151);
-
-  color: #000;
+p,
+a,
+.contact-me {
+  margin: 3px;
+  font-size: 22px;
+  color: rgb(68, 63, 63);
   text-decoration: none;
+}
+
+.contact-me {
+  font-weight: bold;
+  font-family: "Handlee", cursive;
 }

@@ -1,20 +1,20 @@
-@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
 
 .container {
   text-align: center;
 }
 
 img {
-  margin-top: 35px;
+  margin-top: 20px;
   margin-bottom: 15px;
 }
 
 p {
   color: #000;
-  font-family: "Space Mono", monospace;
+  font-family: "Handlee", cursive;
 }
 
 a {
   color: #275171;
-  font-family: "Space Mono", monospace;
+  font-family: "Handlee", cursive;
 }

@@ -1,20 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap");
 
-.container {
-  text-align: center;
-}
 
-img {
-  margin-top: 25px;
-  margin-bottom: 15px;
-}
 
-p {
-  color: rgb(70, 68, 68);
-  font-family: "Space Mono", monospace;
-}
-
-a {
-  color: #275171;
-  font-family: "Space Mono", monospace;
-}

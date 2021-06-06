@@ -2,7 +2,7 @@ export const APPS: any = [
   {
     iconUrl: "./assets/employees-app.jpg",
     description: "I created this Angular Employee App thanks to the one of the courses on Udemy,",
-    description2: "It can be used to add, edit or delete records of employees. The author of the course presented how to use Firestore database. Not easy for a person who just started an adventure with Angular, but very interesting, that's for sure! 😎",
+    description2: "It can be used to add, edit or delete records of employees. The author of the course presented how to use Firestore database. Not easy for a person who just started an adventure with Angular, but very interesting, that's for sure!",
     descriptionUrl:"https://www.udemy.com/course/app-empleado-angular-firebase/",
     descriptionUrlTitle: "App empleados con Angular 11.",
     openSourceUrl: "https://github.com/Agata349/angular-firebase-employee-app",
@@ -57,7 +57,7 @@ export const APPS: any = [
 {
     iconUrl: "./assets/my-hobby.jpg",
     description: "This simple JS project was one of my first challenges when I started to learn HTML, CSS and JavaScript during the workshops",
-    description2: "which I mentioned above. Nothing special - some simple prompts and alerts 😃",
+    description2: "which I mentioned above. Nothing special - some simple prompts and alerts.",
     descriptionUrl: "https://www.shecodes.io",
     descriptionUrlTitle: "SheCodes.io.",
     openSourceUrl: "https://github.com/Agata349/First-HTML-with-internal-CSS",
